@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".views.EditProfile">
+
+    <EditText
+        android:id="@+id/name_input"
+        style="@style/edit_profile_input"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="12dp"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/name_label" />
+
+    <TextView
+        android:id="@+id/name_label"
+        style="@style/edit_profile_label"
+        android:layout_marginStart="23dp"
+        android:labelFor="@+id/name_input"
+        android:text="Name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editar_perfil" />
+
+    <TextView
+        android:id="@+id/bio_label"
+        style="@style/edit_profile_label"
+        android:layout_marginStart="23dp"
+        android:labelFor="@+id/edBiografia"
+        android:text="Biografia"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name_input" />
+
+    <EditText
+        android:id="@+id/edBiografia"
+        style="@style/edit_profile_input"
+        android:layout_marginStart="20dp"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bio_label" />
+
+
+    <TextView
+        android:id="@+id/editar_perfil"
+        style="@style/edit_profile_label"
+        android:layout_marginTop="10dp"
+        android:labelFor="@+id/edBiografia"
+        android:text="Editar Perfil"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_guardarProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Guardar"
+        style="@style/big_button"
+        android:onClick="guardar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edBiografia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

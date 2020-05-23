@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">YouSend</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_chats">Chats</string>
+    <string name="title_buscar">Buscar</string>
+    <string name="title_notifications">Mensajes</string>
+    <string name="title_profile">Profile</string>
+    <string name="titulo_splash">YouSend - Ismael Quijorna</string>
+    <string name="title_activity_addpublicacion">addpublicacion</string>
+    <string name="title_activity_addpost">addpost</string>
+</resources>

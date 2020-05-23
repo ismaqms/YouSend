@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "70032641409",
+    "firebase_url": "https://yousend-21078.firebaseio.com",
+    "project_id": "yousend-21078",
+    "storage_bucket": "yousend-21078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70032641409:android:55d1fec53df1c42fddac80",
+        "android_client_info": {
+          "package_name": "com.example.yousend"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70032641409-v10nvtg4r0iee18l2l4pbmffskotg2ne.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yousend",
+            "certificate_hash": "ce94e01394b4592c2ddc9ccbdea8158221cdf980"
+          }
+        },
+        {
+          "client_id": "70032641409-ch386rpmke42f9ri00ce8uarrqjq641s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDG84jn7T6p3r3d_dWnggOO_rUpNf9fyHY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70032641409-ch386rpmke42f9ri00ce8uarrqjq641s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
